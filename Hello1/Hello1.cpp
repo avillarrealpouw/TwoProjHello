@@ -5,7 +5,10 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("This is Hello 1\n");
+	int i=0;
+	while(i<100){
+	printf("This is Hello 1b %d\n",i++);
+	}
 	return 0;
 }
 
