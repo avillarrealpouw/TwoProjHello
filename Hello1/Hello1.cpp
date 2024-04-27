@@ -5,7 +5,9 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("This is Hello 1\n");
+	for(int i=0;i<100;i++){
+		printf("This is Hello 1 %d\n",i);
+	}
 	return 0;
 }
 
